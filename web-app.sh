@@ -1,8 +1,8 @@
 #!/bin/bash
 
-mkdir tempdir
+mkdir -p tempdir
 mkdir tempdir/templates
-mkdir -p tempdir/static
+mkdir tempdir/static
 
 cp app.py tempdir/.
 cp -r templates/* tempdir/templates/.
