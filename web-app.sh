@@ -1,8 +1,8 @@
 #!/bin/bash
 
 mkdir -p tempdir
-mkdir tempdir/templates
-mkdir tempdir/static
+mkdir -p tempdir/templates
+mkdir -p tempdir/static
 
 cp app.py tempdir/.
 cp -r templates/* tempdir/templates/.
@@ -23,10 +23,10 @@ echo "CMD python /webapp/app.py" >> tempdir/Dockerfile
 
 cd tempdir
 
-sudo apt-get install docker-ce docker-ce-cli containerd.io -y
+sudo -s apt-get install docker-ce docker-ce-cli containerd.io -y
 
-sudo docker build -t webapp .
+sudo -s docker build -t webapp .
 
-sudo docker run -t -d -p 5000:5000 --name samplerunning webapp
+sudo -s docker run -t -d -p 5000:5000 --name samplerunning webapp
 
-sudo docker ps -a
+sudo -s docker ps -a
