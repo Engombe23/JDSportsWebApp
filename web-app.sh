@@ -23,10 +23,10 @@ echo "CMD python /webapp/app.py" >> tempdir/Dockerfile
 
 cd tempdir
 
-sudo -s apt-get install docker-ce docker-ce-cli containerd.io -y
+apt-get install docker-ce docker-ce-cli containerd.io -y
 
-sudo -s docker build -t webapp .
+docker build -t webapp .
 
-sudo -s docker run -t -d -p 5000:5000 --name samplerunning webapp
+docker run -t -d -p 5000:5000 --name samplerunning webapp
 
-sudo -s docker ps -a
+docker ps -a
