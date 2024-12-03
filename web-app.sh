@@ -24,4 +24,3 @@ docker build -t webapp .
 docker run -t -d -p 5000:5000 --name samplerunning webapp
 docker ps -a
 
-sudo usermod -aG docker jenkins

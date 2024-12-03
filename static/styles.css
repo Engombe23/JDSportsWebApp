@@ -1,103 +1,167 @@
-/* General Reset */
-body, h2, p, a, input {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #fff;
-  color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-/* Header Section */
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-  background-color: #f8f8f8;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  background-color: black;
-  color: white;
-  padding: 10px;
-  border-radius: 50%;
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #000;
-  font-size: 16px;
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.search input {
-  padding: 5px 10px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
+nav ul li {
+    margin: 0 10px;
 }
 
-/* Banner Section */
-.banner {
-  background-color: #ffeb00;
-  padding: 20px;
-  text-align: center;
+nav ul li a {
+    text-decoration: none;
+    color: #000;
 }
 
-.banner-text {
-  display: flex;
-  justify-content: space-between;
-  font-size: 16px;
-  font-weight: bold;
+.hero {
+    background-color: #ff0;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
 }
 
-.banner-text strong {
-  display: block;
-  margin-top: 5px;
+.content {
+    padding: 20px;
 }
 
-/* Categories Section */
-.categories, .top-picks {
-  margin: 20px;
+.section-title {
+    margin: 20px 0 10px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-h2 {
-  font-size: 24px;
-  margin-bottom: 15px;
+.category-grid, .nations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
 }
 
-.category-items, .top-picks-items {
-  display: flex;
-  gap: 15px;
+.category-grid img, .nations-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
-.category-item, .top-pick-item {
-  text-align: center;
-  flex: 1;
+.category-grid div, .nations-grid div {
+    text-align: center;
 }
 
-.category-image, .top-pick-image {
-  background-color: #d3d3d3;
-  width: 100%;
-  padding-bottom: 75%; /* Aspect ratio */
+.category-grid div a, .nations-grid div a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin-top: 5px;
 }
 
-.shop-all {
-  text-align: right;
-  font-size: 14px;
-  margin-top: 10px;
-  color: #000;
-  cursor: pointer;
+footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.top-pick-item p {
-  margin-top: 10px;
-  font-size: 16px;
-  font-weight: bold;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero {
+    background-color: #ff0;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.content {
+    padding: 20px;
+}
+
+.section-title {
+    margin: 20px 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.category-grid, .nations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.category-grid img, .nations-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.category-grid div, .nations-grid div {
+    text-align: center;
+}
+
+.category-grid div a, .nations-grid div a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
 }
