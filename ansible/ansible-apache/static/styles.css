@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero {
+    background-color: #ff0;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    padding: 20px;
+}
+
+.section-title {
+    margin: 20px 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.category-grid, .nations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.category-grid img, .nations-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.category-grid div, .nations-grid div {
+    text-align: center;
+}
+
+.category-grid div a, .nations-grid div a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero {
+    background-color: #ff0;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.content {
+    padding: 20px;
+}
+
+.section-title {
+    margin: 20px 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.category-grid, .nations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.category-grid img, .nations-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.category-grid div, .nations-grid div {
+    text-align: center;
+}
+
+.category-grid div a, .nations-grid div a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
