@@ -1,4 +1,4 @@
----
+'---
 - hosts: webservers
   become: yes
   vars_files:
@@ -14,7 +14,7 @@
     
     - name: Deploy HTML Page
       copy:
-        src: /var/lib/jenkins/workspace/ansible-jenkins-pipeline/index.html
+        src: /var/lib/jenkins/workspace/ansible-jenkins-pipeline/ansible/ansible-apache/index.html
         dest: /var/www/html 
 
   handlers:
