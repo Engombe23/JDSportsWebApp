@@ -13,7 +13,7 @@
     
     - name: Deploy HTML Page
       copy:
-        src: /var/lib/jenkins/workspace/ansible-jenkins-pipeline/ansible/ansible-apache/index.html
+        src: /var/lib/jenkins/workspace/ansible-jenkins-pipeline/templates/index.html
         dest: /var/www/html 
 
   handlers:
