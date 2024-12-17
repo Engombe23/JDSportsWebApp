@@ -19,8 +19,7 @@
     - name: Deploy CSS Files
       copy:
         src: /var/lib/jenkins/workspace/ansible-jenkins-pipeline/static/styles.css
-        dest: /var/www/html
-
+        dest: /var/www/html/css
 
   handlers:
     - name: RESTART APACHE2
