@@ -1,6 +1,6 @@
 <h1>Deploying a web application</h1>
 
-<p>This task in my second year of university🎓 was deploying a football web application⚽</p>
+<p>This task in my final year of university🎓 was deploying a football web application⚽</p>
 
 <p>I developed a basic JD Sports web page, designed on Figma, and built with HTML & CSS, running it on Flask.</p>
 
